@@ -1,0 +1,32 @@
+﻿<Window x:Class="Gramma.Windows.TaskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TaskWindow" Height="300" Width="500">
+	<Window.CommandBindings>
+		<CommandBinding Command="Close" CanExecute="CloseCommand_CanExecute" Executed="CloseCommand_Execute" />
+	</Window.CommandBindings>
+	<Window.Background>
+		<LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0.0" Color="#00FFE0D0" />
+				<GradientStop Offset="1.0" Color="#C0FFE6BE"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+	</Window.Background>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition />
+		</Grid.ColumnDefinitions>
+
+		<TextBox Name="traceTextBox" Grid.Row="0" Grid.Column="0" 
+						 VerticalScrollBarVisibility="Auto" Height="Auto" TextWrapping="Wrap"/>
+		
+		<Button Name="closeButton" 
+						Grid.Row="1" Grid.Column="0" 
+						HorizontalAlignment="Right" Width="80" IsCancel="True" IsDefault="True" Command="Close">_Close</Button>
+	</Grid>
+</Window>
