@@ -5,7 +5,7 @@ using System.Text;
 using System.Windows.Controls;
 using System.Diagnostics;
 
-namespace Gramma.Windows
+namespace Grammophone.Windows
 {
 	public class TextBoxTraceListener : TraceListener
 	{

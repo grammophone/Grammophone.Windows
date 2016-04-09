@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Interop;
 using System.Windows.Media;
 
-namespace Gramma.Windows
+namespace Grammophone.Windows
 {
 	/// <summary>
 	/// Helper for extending glass background into the client area of a window.

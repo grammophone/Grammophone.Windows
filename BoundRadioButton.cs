@@ -5,7 +5,7 @@ using System.Text;
 using System.Windows.Controls;
 using System.Windows;
 
-namespace Gramma.Windows
+namespace Grammophone.Windows
 {
 	/// <summary>
 	/// Radio button with binding support, thanks to

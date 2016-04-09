@@ -13,7 +13,7 @@ using System.Windows.Shapes;
 using System.Threading.Tasks;
 using System.Diagnostics;
 
-namespace Gramma.Windows
+namespace Grammophone.Windows
 {
 	/// <summary>
 	/// A window for waiting a non-cancellable task to complete while showing the 

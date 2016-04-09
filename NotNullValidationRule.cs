@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Controls;
 
-namespace Gramma.Windows
+namespace Grammophone.Windows
 {
 	/// <summary>
 	/// Apply to a control's binding to require non-null imput.

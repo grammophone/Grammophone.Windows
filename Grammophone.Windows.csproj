@@ -8,8 +8,8 @@
     <ProjectGuid>{AA54CC84-38DE-479F-BFFB-6AACE06524C5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Gramma.Windows</RootNamespace>
-    <AssemblyName>Gramma.Windows</AssemblyName>
+    <RootNamespace>Grammophone.Windows</RootNamespace>
+    <AssemblyName>Grammophone.Windows</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -22,7 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Gramma.Windows.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\Grammophone.Windows.XML</DocumentationFile>
     <NoWarn>1591</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -33,7 +33,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Gramma.Windows.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Grammophone.Windows.XML</DocumentationFile>
     <NoWarn>1591</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>

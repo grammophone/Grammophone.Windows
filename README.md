@@ -1,4 +1,4 @@
-# Gramma.Windows
+# Grammophone.Windows
 This library contains common helpers for WPF applications.
 
 * `GlassHelper`: A static class providing methods and properties to enable Aero effects, when available, to extended regions of a window client area beyond the caption.

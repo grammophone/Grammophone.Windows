@@ -6,7 +6,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace Gramma.Windows
+namespace Grammophone.Windows
 {
 	/// <summary>
 	/// Helpers for binding and validation.
